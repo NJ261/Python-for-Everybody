@@ -16,7 +16,7 @@ soup = BeautifulSoup(html, 'html.parser')
 
 # Retrieve all of the anchor tags
 tags = soup('span')
-#for tag in tags:
+
 y = (re.findall('[0-9]+',str(tags)))
 y = list(map(int, y))   
  
