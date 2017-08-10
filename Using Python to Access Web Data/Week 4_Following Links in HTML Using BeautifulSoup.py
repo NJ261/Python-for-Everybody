@@ -19,7 +19,6 @@ for tag in tags:
 
 print(y[17])
 
-
 for i in range(6):   
     html = urllib.request.urlopen(y[17], context=ctx).read()
     soup = BeautifulSoup(html, 'html.parser')
@@ -31,4 +30,3 @@ for i in range(6):
     print(z[17])
     y[17] = z[17]
     z = []
-
